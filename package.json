@@ -1,7 +1,7 @@
 {
-	"name": "copyright-inserter",
+	"name": "copyright-inserter-pbzc",
 	"publisher": "wmthornton-dev",
-	"displayName": "Copyright Inserter",
+	"displayName": "Copyright Inserter with PBZC",
 	"description": "Inserts copyright header of the selected license into active editor",
 	"version": "1.0.15",
 	"icon": "resources/copyright.jpg",
