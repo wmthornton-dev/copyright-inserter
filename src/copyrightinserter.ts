@@ -105,10 +105,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.`],
 `This file is part of software which has been
 Developed (D) ${year} by ${holder}.
     
-Distributed under the Public Benefit Zero Copyright License (v.1.0)
+Distributed under the Public Benefit Zero Copyright License (v.2.0)
     
 You should have received a copy of the Public Benefit Zero Copyright License
-along with this program. If not, see <https://github.com/wmthornton/PBZC.git>.`],
+along with this program. If not, see <https://github.com/wmthornton-dev/PBZC.git>.`],
 
         ['mpl2', (holder: string, year:string) =>
 `Copyright (C) ${year} ${holder}

@@ -3,7 +3,7 @@
 	"publisher": "wmthornton-dev",
 	"displayName": "Copyright Inserter with PBZC",
 	"description": "Inserts copyright header of the selected license into active editor",
-	"version": "1.0.15",
+	"version": "1.0.16",
 	"icon": "resources/copyright.jpg",
 	"license": "SEE LICENSE IN LICENSE",
 	"repository": {
