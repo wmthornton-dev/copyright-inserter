@@ -1,6 +1,6 @@
 {
 	"name": "copyright-inserter",
-	"publisher": "minherz",
+	"publisher": "wmthornton-dev",
 	"displayName": "Copyright Inserter",
 	"description": "Inserts copyright header of the selected license into active editor",
 	"version": "1.0.15",
@@ -8,10 +8,10 @@
 	"license": "SEE LICENSE IN LICENSE",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/minherz/copyright-inserter"
+		"url": "https://github.com/wmthornton-dev/copyright-inserter"
 	},
 	"bugs": {
-		"url": "https://github.com/minherz/copyright-inserter/issues"
+		"url": "https://github.com/wmthornton-dev/copyright-inserter/issues"
 	},
 	"engines": {
 		"vscode": "^1.40.0"
@@ -41,7 +41,7 @@
 				"copyrightInserter.license": {
 					"type": "string",
 					"default": "apache",
-					"description": "A type of the license. Supported license types are 'apache', 'mit', 'bsd', 'gpl3', 'agpl3' and 'mpl2"
+					"description": "A type of the license. Supported license types are 'apache', 'mit', 'bsd', 'gpl3', 'agpl3' 'pbzc' and 'mpl2"
 				},
 				"copyrightInserter.holder": {
 					"type": "string",
@@ -74,7 +74,7 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/node": "^10.12.21",
+		"@types/node": "^10.17.60",
 		"@types/vscode": "^1.37.0",
 		"tslint": "^5.12.1",
 		"typescript": "^3.3.1"

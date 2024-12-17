@@ -27,6 +27,7 @@ export class CopyrightInserter {
     // 'gpl3' - GPL 3.0
     // 'agpl3' - Affero GPL 3.0
     // 'mpl2' - MPL 2.0
+    // 'pbzc' - Public Benefit Zero Copyright License 1.0
     readonly CopyrightMap = new Map([
         ['apache', (holder: string, year: string) =>
 `Copyright ${year} ${holder}
@@ -99,6 +100,15 @@ GNU Affero General Public License for more details.
 
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.`],
+        
+        ['pbzc', (holder: string, year:string) =>
+`This file is part of software which has been
+Developed (D) ${year} by ${holder}.
+    
+Distributed under the Public Benefit Zero Copyright License (v.1.0)
+    
+You should have received a copy of the Public Benefit Zero Copyright License
+along with this program. If not, see <https://github.com/wmthornton/PBZC.git>.`],
 
         ['mpl2', (holder: string, year:string) =>
 `Copyright (C) ${year} ${holder}
